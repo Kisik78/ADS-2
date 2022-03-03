@@ -18,7 +18,7 @@ uint64_t fact(uint16_t n) {
   }
   if (n == 0) {
     return 1;
-  }else {
+  } else {
       return n * fact (n - 1);
   }
 }
@@ -30,7 +30,7 @@ double calcItem(double x, uint16_t n) {
 double expn(double x, uint16_t count) {
   double uni = 0;
   for (int n = 0; n <= count; n++) {
-    uni += calcItem(x,n);
+    uni += calcItem(x, n);
   }
   return uni;
 }
